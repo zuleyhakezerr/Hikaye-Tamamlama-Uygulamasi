@@ -1,4 +1,4 @@
-# Hikaye Tamamlama Uygulaması
+<img width="1433" alt="Ekran Resmi 2025-01-07 18 31 47" src="https://github.com/user-attachments/assets/e2d51129-2b6c-4913-a42b-fc097a3a5654" /># Hikaye Tamamlama Uygulaması
 
 Bu proje, kullanıcıların hikaye başlangıçlarını tamamlamalarına yardımcı olan bir web uygulamasıdır. Flask ve OpenAI API'si kullanılarak geliştirilmiştir.
 
@@ -71,7 +71,9 @@ Bu proje, kullanıcıların hikaye başlangıçlarını tamamlamalarına yardım
 - Metin kutusuna hikaye başlangıcınızı yazın.
 - "Hikayeyi Tamamla" butonuna tıklayın.
 - Tamamlanan hikaye sonuç bölümünde görüntülenecektir.
-- ![Uploading Ekran Resmi 2025-01-07 18.31.47.png…]()
+- 
+<img width="1433" alt="ekran" src="https://github.com/user-attachments/assets/ad5d3646-7a36-487d-ace4-d719d43c2079" />
+
 
 
 ## Katkıda Bulunma
