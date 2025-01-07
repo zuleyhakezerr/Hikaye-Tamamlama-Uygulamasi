@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikaye Tamamlama Aracı</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Hikaye Tamamlama Aracı</h1>
+    <textarea id="inputHikaye" placeholder="Hikayenin başlangıcını yazın..."></textarea>
+    <button onclick="tamamla()">Hikayeyi Tamamla</button>
+    <p><strong>Tamamlanan Hikaye:</strong></p>
+    <div id="sonuc"></div>
+</div>
+
+<script>
+    async function tamamla() {
+        const hikaye = document.getElementById('inputHikaye').value;
+        const response = await fetch('http://127.0.0.1:5000/tamamla', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ prompt: hikaye }),
+        });
+
+        const data = await response.json();
+        document.getElementById('sonuc').innerText = data.tamamlanan || "Bir hata oluştu!";
+    }
+</script>
+</body>
+</html>
