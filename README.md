@@ -71,8 +71,7 @@ Bu proje, kullanıcıların hikaye başlangıçlarını tamamlamalarına yardım
 - Metin kutusuna hikaye başlangıcınızı yazın.
 - "Hikayeyi Tamamla" butonuna tıklayın.
 - Tamamlanan hikaye sonuç bölümünde görüntülenecektir.
-- 
-<img width="1433" alt="ekran" src="https://github.com/user-attachments/assets/ad5d3646-7a36-487d-ace4-d719d43c2079" />
+  
 
 
 
